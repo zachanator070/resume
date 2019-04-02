@@ -3,6 +3,7 @@
 
 Zachary Johnson
 ==================================
+zjohnson@adobe.com
 
 .. image:: me_circle.png
 
