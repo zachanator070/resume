@@ -21,3 +21,4 @@ help:
 	-mkdir docs
 	-rm -rf docs/*
 	-mv _build/html/* docs
+	-cp _config.yml docs
