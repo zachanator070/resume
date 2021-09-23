@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Resume'
-copyright = '2019, Zach Johnson'
+copyright = '2021, Zach Johnson'
 author = 'Zach Johnson'
 
 # The short X.Y version
