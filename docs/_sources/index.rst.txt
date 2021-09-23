@@ -3,15 +3,15 @@
 
 Zachary Johnson
 ==================================
-zjohnson@adobe.com
+zach.johnson070@gmail.com
 
 .. image:: me_circle.png
 
 About Me
 ========
-- BS in Computer Science @ Brigham Young University
+
 - Software Engineer @ Adobe Systems
-- Former BYU Linux Club VP
+- BS in Computer Science @ Brigham Young University
 - Avid programmer
 - A little nerdy
 - `Github`_
@@ -21,68 +21,88 @@ About Me
 
 Job History
 ===========
-- Mar 2017 - Present : SKMS Software Developer @ Adobe
-- Dec 2016 - Mar 2017 : CPT Software Developer @ Adobe
-- May 2016 - Dec 2016 : CPT Intern @ Adobe
+
+- Mar 2017 - Present : CMDB Software Developer @ Adobe
+- Dec 2016 - Mar 2017 : Private Cloud Software Developer @ Adobe
+- May 2016 - Dec 2016 : Private Cloud Intern @ Adobe
 - Nov 2015 - May 2016 : Automation Infrastructure Intern @ Microfocus
-- April 2013 - Nov 2015 : Student System Administrator @ BYU CS Department
 
 Experience
 ==========
 
-SKMS
-----
-- Improve Global Performance
-   - Used docker to plan scalability into SKMS
-   - Split read/write MySQL connections
-   - HA Proxy
-   - Master/Slave MySQL cluster in Docker
-   - Simulated artificial lag in Docker
-   - Session management
+Edge Certificate Service
+------------------------
+- Implemented backend API
+   - Created using the Java Spring ecosystem
+   - Integrate with AWS relational database using Spring JPA
+   - Order Certificates via Digicert API
+   - Create DNS records via Adobe RDNS
 
-- MediaWiki Deprecation
+- Integrate with Vault Transit
+   - Utilize Vault transit API for encrypting and storage of private keys
+   - Create workflow to rotate and deprecate encryption keys
+
+- Implemented UI pages
+   - React.js
+   - RxJs
+   - Adobe Spectrum Components
+
+CMDB
+----
+- Deprecated MediaWiki in favor of Atlassian Confluence
    - Used Splunk and Adobe Analytics to determine users of deprecated pages
    - Scraped pages using MediaWiki Api
    - Converted pages to markdown using Pandoc
    - Automated using Python3
 
-- Object Relationship Security Vulnerability
+- Patched API object relationship security vulnerability
    - Used Splunk logs to determine broken permission methods
    - 400+ edits to current security permissions
    - Provided unit tests to prove functionality
-   - Zero impact on deployment
+   - Zero impact on users and automated processes
 
-- Infoblox Integration
-   - Created sync process in SKMS that bi-directionally syncs IP blocks
+- Implemented Infoblox integration
+   - Created sync process in the CMDB that bi-directionally syncs IP blocks
    - Configurable source of record
    - Abstracted in PHP7
 
 IQ
 --
-- Designed to update CMDB assets with data from various API sources
-- Integrations with:
+- Author and own the service using robust technologies
+   - Python3
+   - Docker
+   - MariaDB
+   - Rabbitmq
+
+- Sync asset information across multiple api sources
    - VCenter API
    - Dell RacADM API
    - Splunk API
    - RackHD API
-   - SKMS API
-- Uses asyncio for dealing with async processes
-- Implemented AI model to predict role of a device found
-- Experimented with Naive Bayes and Neural Network for AI model
-- Uses scikitlearn for AI implementation
-- Deployed through Moonbeam/Ethos
-- Distributed tasks using RabbitMQ
-- Transitioned from Python2 to Python3
-- Unit tests > 80% code coverage
-- Swagger Docs + Sphinx Docs
+   - CMDB API
+
+- Create an asynchronous, scalable, and stateless design
+   - Uses asyncio for dealing with async processes
+   - Deployed into private datacenter docker hosts
+   - Distributed tasks using RabbitMQ
+
+- Predict asset ownership
+   - Implemented AI model to predict role of a device found
+   - Implemented Naive Bayes and Neural Network for AI model
+   - Uses scikitlearn for AI implementation
+
+- Use healthy software development habits
+   - Unit tests > 80% code coverage
+   - Swagger Docs + Sphinx Docs
 
 For Fun
 =======
 
-rpgtools
+RPGtools
 -----------
 - Dungeons and Dragons + google maps
 - Mongo DB
+- Typescript
 - passport.js
 - react.js
 - quill.js
