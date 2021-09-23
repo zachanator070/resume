@@ -43,7 +43,7 @@ Edge Certificate Service
    - Create workflow to rotate and deprecate encryption keys
 
 - Implemented UI pages
-   - React.js
+   - React
    - RxJs
    - Adobe Spectrum Components
 
@@ -51,7 +51,7 @@ CMDB
 ----
 - Deprecated MediaWiki in favor of Atlassian Confluence
    - Used Splunk and Adobe Analytics to determine users of deprecated pages
-   - Scraped pages using MediaWiki Api
+   - Scraped pages using MediaWiki API
    - Converted pages to markdown using Pandoc
    - Automated using Python3
 
@@ -74,7 +74,7 @@ IQ
    - MariaDB
    - Rabbitmq
 
-- Sync asset information across multiple api sources
+- Sync asset information across multiple API sources
    - VCenter API
    - Dell RacADM API
    - Splunk API
@@ -103,14 +103,14 @@ RPGtools
 - Dungeons and Dragons + google maps
 - Mongo DB
 - Typescript
-- passport.js
-- react.js
-- quill.js
-- jimp.js
+- Passport
+- React
+- Quill
+- Jimp
 
 Incognito
 ---------
 - Party game where you lie to your friends
 - Mongo DB
-- react.js
-- socket.io to transmit game state changes
+- React
+- Socket.IO to transmit game state changes
