@@ -49,6 +49,12 @@ Edge Certificate Service
 
 CMDB
 ----
+- Contribute to and maintain a legacy CMDB codebase
+   - Use updated PHP7 features
+   - Contribute to PHPUnit tests
+   - Improve developer experience via Docker
+   - Contribute to Flyway schema changes
+
 - Deprecated MediaWiki in favor of Atlassian Confluence
    - Used Splunk and Adobe Analytics to determine users of deprecated pages
    - Scraped pages using MediaWiki API
@@ -61,10 +67,11 @@ CMDB
    - Provided unit tests to prove functionality
    - Zero impact on users and automated processes
 
-- Implemented Infoblox integration
-   - Created sync process in the CMDB that bi-directionally syncs IP blocks
-   - Configurable source of record
-   - Abstracted in PHP7
+- Extend VCenter functionality
+   - Support deploying VMS to multiple availability zones
+   - Insert extensive logging to track asynchronous tasks
+   - Simplify task execution from RabbitMQ
+   - Implement short circuit mechanism for VM deploy process
 
 IQ
 --
