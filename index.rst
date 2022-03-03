@@ -1,6 +1,8 @@
 .. Resume documentation master file, created by
    sphinx-quickstart on Mon Apr  1 22:18:41 2019.
 
+.. HTML rendered version can be found at https://zachanator070.github.io/resume/
+
 Zachary Johnson
 ==================================
 zach.johnson070@gmail.com
@@ -34,13 +36,14 @@ Edge Certificate Service
 ------------------------
 - Implemented backend API
    - Created using the Java Spring ecosystem
-   - Integrate with AWS relational database using Spring JPA
-   - Order Certificates via Digicert API
-   - Create DNS records via Adobe RDNS
+   - Integrated with AWS relational database using Spring JPA
+   - Ordered Certificates via Digicert API
+   - Created DNS records via Adobe RDNS
 
-- Integrate with Vault Transit
-   - Utilize Vault transit API for encrypting and storage of private keys
-   - Create workflow to rotate and deprecate encryption keys
+- Created migration process of data from CMDB to the new Edge Certificate Service
+   - Written in Python 3
+   - Integrated with CMDB and EdgeCert APIs
+   - Used PGP library to decrypt CMDB encrypted SSL keys
 
 - Implemented UI pages
    - React
@@ -49,11 +52,11 @@ Edge Certificate Service
 
 CMDB
 ----
-- Contribute to and maintain a legacy CMDB codebase
-   - Use updated PHP7 features
-   - Contribute to PHPUnit tests
-   - Improve developer experience via Docker
-   - Contribute to Flyway schema changes
+- Contributed to and maintain a legacy CMDB codebase
+   - Used updated PHP7 features
+   - Contributed to PHPUnit tests
+   - Improved developer experience via Docker
+   - Contributed to Flyway schema changes
 
 - Deprecated MediaWiki in favor of Atlassian Confluence
    - Used Splunk and Adobe Analytics to determine users of deprecated pages
@@ -63,42 +66,42 @@ CMDB
 
 - Patched API object relationship security vulnerability
    - Used Splunk logs to determine broken permission methods
-   - 400+ edits to current security permissions
+   - Contributed 400+ edits to current security permissions
    - Provided unit tests to prove functionality
    - Zero impact on users and automated processes
 
 - Extend VCenter functionality
-   - Support deploying VMS to multiple availability zones
-   - Insert extensive logging to track asynchronous tasks
-   - Simplify task execution from RabbitMQ
-   - Implement short circuit mechanism for VM deploy process
+   - Supported deploying VMS to multiple availability zones
+   - Inserted extensive logging to track asynchronous tasks
+   - Simplified task execution from RabbitMQ
+   - Implemented short circuit mechanism for VM deploy process
 
 IQ
 --
-- Author and own the service using robust technologies
+- Authored and owned the service using robust technologies
    - Python3
    - Docker
    - MariaDB
    - Rabbitmq
 
-- Sync asset information across multiple API sources
+- Synced asset information across multiple API sources
    - VCenter API
    - Dell RacADM API
    - Splunk API
    - RackHD API
    - CMDB API
 
-- Create an asynchronous, scalable, and stateless design
+- Created an asynchronous, scalable, and stateless design
    - Uses asyncio for dealing with async processes
    - Deployed into private datacenter docker hosts
    - Distributed tasks using RabbitMQ
 
-- Predict asset ownership
+- Predicted asset ownership
    - Implemented AI model to predict role of a device found
    - Implemented Naive Bayes and Neural Network for AI model
    - Uses scikitlearn for AI implementation
 
-- Use healthy software development habits
+- Used healthy software development habits
    - Unit tests > 80% code coverage
    - Swagger Docs + Sphinx Docs
 
