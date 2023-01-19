@@ -110,6 +110,8 @@ For Fun
 
 RPGtools
 -----------
+Checkout the product page `here`_
+
 - Dungeons and Dragons + google maps
 - Mongo DB
 - Typescript
@@ -117,3 +119,5 @@ RPGtools
 - React
 - Quill
 - Jimp
+
+.. _here: https://zachanator070.github.io/rpgtools/

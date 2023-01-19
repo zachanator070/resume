@@ -155,6 +155,8 @@ For Fun
 RPGtools
 ========
 
+Checkout the product page here
+
 * Dungeons and Dragons + google maps
 
 * Mongo DB
